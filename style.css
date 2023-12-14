@@ -38,16 +38,18 @@ body {
   body {
     font-size: 80px;
     height: auto;
-    background: none;
+    /* background: none; */
+    background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
-    background-position: top;
+    background-position: center;
     justify-content: space-between;
     padding: 20px 20px 80px 20px;
-    height: auto;
+    /* height: auto; */
     justify-content: space-between;
+    height: 100vh;
 }
 }
 
@@ -94,10 +96,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
-    background-position: center;
+    height: 100vh;
+    /* background-position: center; */
     justify-content: space-between;
     padding: 80px 20px 80px 20px;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .sear {
     font-size: 20px;
